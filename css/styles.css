@@ -166,18 +166,6 @@ ul,h1,h2,h3,p {
 .social-link:focus {
     background-color: var(--color-accent);
 }
-.social-link.instagram {
-    background-image: url(../images/instagram.svg);
-}
-.social-link.twitter {
-    background-image: url(../images/twitter.svg);
-}
-.social-link.facebook {
-    background-image: url(../images/facebook.svg);
-}
-.social-link.linkedin {
-    background-image: url(../images/linkedin.svg);
-}
     /* ----------- герой ------------ */
 .hero {
     margin: 0 auto;
@@ -228,27 +216,12 @@ ul,h1,h2,h3,p {
 .features-item:not(:last-child) {
     margin-right: 30px;
 }
-.features-item::before {
-    content: '';
-    display: block;
+.features-item .thumb {
     margin-bottom: 30px;
     height: 120px;
     border-radius: 4px;
     background: #F5F4FA;
-    background-repeat: no-repeat;
     background-position: center;
-}
-.features-item.antena::before {
-    background-image: url(../images/antenna.svg);
-}
-.features-item.clock::before {
-    background-image: url(../images/clock.svg);
-}
-.features-item.diagram::before {
-    background-image: url(../images/diagram.svg);
-}
-.features-item.astronaut::before {
-    background-image: url(../images/astronaut.svg);
 }
 .features-item-name {
     font-weight: 700;
